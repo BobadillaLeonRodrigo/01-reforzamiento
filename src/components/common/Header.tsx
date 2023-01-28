@@ -1,9 +1,8 @@
 import React from 'react'
 import { NavLink,Link } from 'react-router-dom'
-import Default from './Default'
 //Aplicacion de Reforzamiento
 //Se crea la carpeta Src donde contiene la carpeta common y el archivo Header.tsx
-//Se hace el Header y se hacer el llamando de cada navegacion de las cartas usando NavLink de acuerdo a cada una
+//Se hace el Header y se hacer el llamando de cada navegacion de las cartas usando NavLink de acuerdo con Router
 const Header = () => {
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary navbar-dark bg-dark">

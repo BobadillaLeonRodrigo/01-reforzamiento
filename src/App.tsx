@@ -7,7 +7,7 @@ import MainTypeScript from './components/typescript/MainTypeScript';
 import Home from './components/common/Home';
 import MainHooks from './components/hooks/MainHooks';
 import Default from './components/common/Default';
-
+//Agregamos los Router para la importacion de cada una de las funciones de uso Main dentro del Header
 function App() {
   return (
     <div>
