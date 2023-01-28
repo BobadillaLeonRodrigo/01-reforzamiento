@@ -1,3 +1,13 @@
+/*Hacemos uso de la api y se intercambian los valores por los siguientes
+a. Welcome por IReqRestApiCharacters.
+b. Info por IInfo.
+c. Result por ICharacter.
+d. Gender por IGender.
+e. Location por ILocation.
+f. Status por IStatus.
+Esto aplicado y recolectado de  la respuesta de Postman y de la pagina https://app.quicktype.io/ con lenjuega TypeScript
+*/
+
 export interface IReqRestApiCharacters {
     info:    IInfo;
     results: ICharacter[];
