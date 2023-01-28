@@ -3,7 +3,6 @@ import ReqRestApi from '../Api/ReqRestApi';
 import { ICharacter, IReqRestApiCharacters } from '../interfaces/IReqRestApiCharacters';
 //Declaramos unas constante que inicialice en 1
 const DEFAULT_PAGE = 1;
-
 export const useCharacter = () => {
     //Declaramos variable de estado llamada characters que almacenara los personajes del servicio
     const [characters, setCharacters] = useState<ICharacter[]>([]);
@@ -16,6 +15,7 @@ export const useCharacter = () => {
                 ({ data }) => data
                 //Revisamos si depliega en consola del navegador
             ).catch(console.log);
+            //Si hay respuesta
             console.log(response);
         response ? setCharacters(response.results) : setCharacters([]);
     }
