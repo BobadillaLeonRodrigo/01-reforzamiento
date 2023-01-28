@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+//Se crea la carpeta Src donde contiene la carpeta hooks y el arhivo Contador.tsx hacemos uso de useState aplicando logica en uno solo arhcivo
 const Contador = () => {
     const [count, setCount] = useState(0);
     const updateCount = (NewValue: number = 1) => {
