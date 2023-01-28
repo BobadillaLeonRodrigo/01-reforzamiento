@@ -1,4 +1,5 @@
 import React from 'react'
+//Importamos el archivo EverydayTypes.tsx de la carpeta typescript hacia el arhico MainTypeScrips.tsx para desplegarlas en pantalla
 const EverydayTypes = () => {
     let username: string = 'Jorge';
     const age: number = 38;
