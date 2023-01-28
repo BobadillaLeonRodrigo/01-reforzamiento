@@ -1,6 +1,8 @@
 import React from 'react'
 import { NavLink,Link } from 'react-router-dom'
-import Default from './Default';
+import Default from './Default'
+//Aplicacion de Reforzamiento
+//Se crea la carpeta Src donde contiene la carpeta common y el archivo Header.tsx
 const Header = () => {
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary navbar-dark bg-dark">
