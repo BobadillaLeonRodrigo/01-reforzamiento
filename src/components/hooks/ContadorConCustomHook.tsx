@@ -3,7 +3,6 @@ const ContadorConCustomHook = () => {
 //Se crea la carpeta Src donde contiene la carpeta hooks y el arhivo CondadorConCustomHook.tsx retornando las variables de
 //useContador aplicando el useState
     const {count, updateCount} = useContador();
-
     return (
         <div>
             <h2>Contador Custom Hook: <small> {count} </small> </h2>
