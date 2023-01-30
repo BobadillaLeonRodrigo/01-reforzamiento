@@ -12,7 +12,7 @@ const Personajes = () => {
         <>
         <div className='row bg-dark'>
             {
-                characters.map(character => <div className='col-sm-3'>
+                characters.map(character => <div className='col-sm-3' key={character.id}>
                         <Tarjeta key={character.id} {...character} /> </div>
                     )
             }
